@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          repository: filipeule/nasa-project
       - name: Use Node.js version 18
         uses: action/setup-node@v2
         with:
