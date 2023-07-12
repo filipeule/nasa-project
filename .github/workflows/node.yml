@@ -12,7 +12,7 @@ jobs:
         with:
           repository: filipeule/nasa-project
       - name: Use Node.js version 18
-        uses: action/setup-node@v2
+        uses: action/setup-node@v3
         with:
           node-version: '18'
           repository: filipeule/nasa-project
